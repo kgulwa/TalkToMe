@@ -1,0 +1,50 @@
+/*
+ * Style the body of the document to have margin of 20 pixels on the left.
+ * All content will be shifted by 20px from the left.
+ */
+body {
+  margin-left: 20px;
+}
+
+/* Style the level 1 headings to use the sans-serif font configured in the browser.
+ * Also, make the colour navy blue.
+ */
+h1 {
+  font-family: sans-serif;
+  color: navy;
+}
+
+/*
+ * Paragraph content should be rendered with a proportionally larger font size
+ */
+p {
+  font-size: larger;
+}
+
+/*
+ * The unordered list should have a padding of 10 pixels above and below it.
+ * Also, limit the width of the list to be 30% of the browser window width.
+ * Then add a border around the entire list that is 1px wide, solid line and grey in color.
+ */
+ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 30%;
+  border: 1px solid grey;
+}
+
+/*
+ * Each list item should have a margin of 10px all around it.
+ */
+ul li {
+  margin: 10px;
+}
+
+/*
+ * Make the emphasis text bold and a background color that is light yellow (RGB hexadecimal value #ffffe0).
+ */
+em {
+  background-color: #ffffe0;
+  font-weight: bold;
+  font-family: sans-serif;
+}

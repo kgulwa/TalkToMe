@@ -1,0 +1,60 @@
+/*
+ * Setting the style for the body means that all text content
+ * will default to the specified style.
+ */
+body {
+  /* All text will be 20px from the left */
+  margin-left: 20px;
+
+  /* Make the background a dark grey */
+  background-color: #282a35;
+
+  /* Change all text to be monospaced font by default */
+  font-family: monospace;
+
+  /* Make the font color a shade of green */
+  color: #84c754;
+}
+
+/*
+ * Style the unordered list
+ */
+ul {
+  /* Disable the bullet point markers on the list items */
+  list-style-type: none;
+
+  /* Remove any existing margin and padding space */
+  margin: 0;
+  padding: 0;
+
+  /* Force anything that comes after the list to be below it */
+  overflow:hidden;
+}
+
+/*
+ * Style each list item of every unordered list
+ */
+ul li {
+  /* position left horizontally (instead of vertically one below the other) */
+  float: left;
+
+  /* pad 10 pixels all around the text */
+  padding: 10px;
+
+  /* Increase the font size by 20% relative to the normal size */
+  font-size: 120%;
+
+  /* make the font colour white */
+  color: white;
+}
+
+/*
+ * Declare the style when the mouse is hovered over a list item
+ */
+li:hover {
+  /* Change the font colour to black */
+  color: black;
+
+  /* And change the background colour to a shade of green */
+  background-color: #84c754;
+}
